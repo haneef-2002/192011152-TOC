@@ -23,7 +23,6 @@ for(i=0;i<num_final;i++)
 printf("Enter the final state %d : ",i+1);
 scanf("%d",&final_state[i]);
 }
-//Initialize all entries with -1 in Transition table
 for(i=0;i<10;i++)
 {
 for(j=0;j<10;j++)
@@ -34,7 +33,6 @@ mat[i][j][k]=-1;
 }
 }
 }
-//Get input from the user and fill the 3D transition table
 for(i=0;i<num_states;i++)
 {
 for(j=0;j<num_symbols;j++)
